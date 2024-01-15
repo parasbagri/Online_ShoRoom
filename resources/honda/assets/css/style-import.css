@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* Libraries */
+@import "jquery.scrolling-tabs.min.css";
+@import "bootstrap.min.css";
+@import "animate.min.css";
+@import "flexslider.css";
+@import "../ImageGalaryData/jquery.fancybox.min.css";
+@import "magnify.css";
+
+/*Fonts Import*/
+@import "feather.css";
+@import "line-awesome.css";
+@import "font-awesome.css";
+@import "fonts.css";
+@import "iconsmind.min.css";
+@import "flaticon.css";
+@import "icofont.min.css";
+
+/*Template Layout*/
+@import "layout.css";
+@import "custom-design.css";
+@import "responsive.css";
+
+
+/*Will Be used by developers. Please Dont modify above css.*/
+@import "custom-dev.css";
+@import "color-box.css";

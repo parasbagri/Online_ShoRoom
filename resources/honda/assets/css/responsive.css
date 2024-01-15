@@ -1,0 +1,646 @@
+@media (min-width: 768px) and (max-width: 1000px) {
+    .container {
+        max-width: 98%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .container {
+        max-width: 98%;
+    }
+}
+
+/*MAximum Viewport*/
+@media (max-width:1300px) {}
+
+@media (max-width: 1200px) {
+    .rupee-txt {
+        font-size: 33px;
+        color: #e70323;
+        text-shadow: 1px 1px 2px #000;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+
+
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 15px 25px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .home-flex-slider .flex-control-nav {
+        width: 100%;
+        position: absolute;
+        bottom: 35px;
+        text-align: left;
+        left: 0;
+    }
+}
+
+@media (max-width: 1020px) {
+    .collapse.show {
+        background: #f5f5f5;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        z-index: 1;
+        top: 0;
+        height: 100vh;
+        overflow-y: scroll;
+        max-width: 360px;
+    }
+
+    .res-menu {
+        overflow: hidden;
+        height: 55px;
+        position: relative;
+    }
+
+    .res-close {
+        position: absolute;
+        right: 10px;
+    }
+
+    .navbar-nav {
+        padding-top: 0;
+        width: 100%;
+        clear: both;
+    }
+
+    .dropdown-menu.show {
+        background-color: transparent;
+        border: none;
+        margin-left: 20px;
+        border-left: 1px dotted #DDD;
+    }
+
+    .navbar .dropdown-menu a.dropdown-item {
+        color: #333;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #312500 !important;
+        padding: 15px 15px;
+        text-transform: uppercase;
+        font-size: 14px;
+        position: relative;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #212529 !important;
+        font-weight: 800;
+    }
+
+    li.nav-item.dropdown.show .nav-link,
+    li.nav-item.dropdown.show .nav-link:visited {
+        color: #000000 !important;
+    }
+
+    .main-menu {
+        margin-left: 0;
+    }
+
+    .location-txt {
+        background-color: #343A40;
+        height: auto;
+        max-height: auto;
+    }
+
+    .prod-slider-links {
+        padding: 0px 0px;
+    }
+
+    .prod-slider-links .btn-icon {
+        margin-bottom: 0;
+    }
+
+    .prod-slider-links .btn i {
+        position: relative;
+        font-size: 18px;
+        color: #eb0b0b;
+    }
+
+    button.navbar-toggler {
+        margin-left: 180px;
+    }
+
+    .navbar-fixed-top button.navbar-toggler {
+        margin-left: 0;
+    }
+
+    #sticky-header .logo {
+        margin: 2px 0px;
+    }
+
+    .res-phone {
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+
+    .res-phone h4 {
+        font-size: 20px;
+        text-align: center;
+        padding: 14px 0px 0px 0px;
+    }
+
+    .res-phone h4 i {
+        font-size: 17px;
+        color: #c50f0f;
+    }
+
+    .model-features .feature-txt h6 {
+        font-size: 16px;
+        font-family: 'robotoregular';
+        font-weight: 600;
+    }
+
+    .model-features .feature-txt span {
+        font-family: 'open_sansregular';
+        font-size: 11px;
+        margin: 0 5px;
+    }
+
+    .prod-info-bar {
+        background-image: url(../images/prod-info-box.jpg);
+        background-repeat: repeat-x;
+        height: auto;
+        border-bottom: 1px solid #c8c8c8;
+        position: relative;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding: 0;
+    }
+
+    .model-features .feature-txt {
+        padding-left: 50px;
+    }
+
+    .model-features .btn-icon {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 10px;
+    }
+
+    .model-features .btn-icon img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .res-menu .logo {
+        display: block;
+        position: relative;
+        left: 10px;
+        top: 0px;
+        width: 120px;
+        height: auto;
+        background: none;
+    }
+
+    .res-menu .logo img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .prod-slider-links {
+        display: none;
+    }
+
+    button.navbar-toggler {
+        margin-left: 180px;
+    }
+
+    #sticky-header .logo {
+        margin: 0px 0px;
+    }
+
+    ul.social-icons {
+        padding: 50px 0px 0px 0px;
+        margin: 0px;
+        position: relative;
+        display: block;
+        width: 153px;
+        margin: 26px auto;
+    }
+
+    #fixed-social {
+        display: none;
+    }
+
+    .om-logo h1 {
+        font-family: arial;
+        font-weight: 800;
+        color: #ec182b;
+        font-size: 30px;
+        padding: 16px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    #sideBarContent .om-logo {
+        float: left;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        display: block;
+    }
+
+    #sideBarContent .om-logo h1 {
+        font-family: arial;
+        font-weight: 800;
+        color: #ec182b;
+        font-size: 24px;
+        padding: 8px 0px 8px 0px;
+        margin: 0px;
+    }
+
+    .inner-model-banner img {
+        width: 100%;
+        max-width: 90% !important;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 980px) {
+
+    .topbar {
+        display: none !important;
+    }
+
+    .navbar-fixed-top #sticky-header {
+        display: none !important;
+    }
+
+    .welcome-txt {
+        font-family: 'open_sanslight';
+        padding-left: 0;
+        padding-bottom: 132px !important;
+        text-align: center;
+        transform: scale(0.8);
+    }
+
+    .locate-top::before {
+        content: 'Locate US';
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 1);
+        right: 0;
+        bottom: 0;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #FFF;
+        padding: 0px 30px 0px 30px;
+        text-align: right;
+    }
+
+    .locate-top::after {
+        content: '';
+        position: absolute;
+        width: 138px;
+        height: 129px;
+        background-image: url(../images/locateus-top.png);
+        background-size: cover;
+        top: -129px;
+    }
+
+    .color-motor-box {
+        height: auto;
+    }
+
+    .color-motor-box img {
+        max-width: 85%;
+        max-height: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .location-block {
+        padding: 30px;
+    }
+
+
+
+    .home-flex-slider .flex-control-nav {
+        width: 100%;
+        position: absolute;
+        bottom: -32px;
+        text-align: center;
+        left: 0;
+    }
+
+    .prod-tabs .tab-content {
+        max-height: 100%;
+    }
+
+    .multi-color-box {
+        height: auto;
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 10px;
+        max-width: 100%;
+        z-index: 1;
+        text-align: center;
+        display: inline-table;
+    }
+
+    .color-box-group {
+        margin: 0px 0 !important;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .color-motor-box h6 {
+        text-transform: capitalize;
+        color: #464646;
+        font-size: 16px;
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        left: 0;
+        top: -24px;
+        padding: 6px 0px;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .honda-logo {
+        width: 174px;
+        height: auto;
+        float: right;
+        margin: 8px 0px;
+    }
+
+    .honda-logo img {
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    #sticky-header .logo {
+        height: auto;
+        width: 122px;
+        margin: 20px 0px 0px 0px;
+    }
+
+
+
+    button.navbar-toggler {
+        margin-left: 150px;
+    }
+
+    .rupee-txt {
+        font-size: 25px;
+        color: #e70323;
+        text-shadow: 1px 1px 2px #000;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+
+    .px-sm-0 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .prod-tabs .tab-content {
+        padding: 30px 0px !important;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .btn-sm {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .footer-two {
+        width: 100%;
+        padding: 8px 0px;
+        background-color: #000;
+        color: #FFF;
+        text-align: center;
+    }
+
+    .footer-two .foot-link {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        color: #FFF;
+    }
+
+    .prod-features .btn-icon {
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        left: 0;
+    }
+
+    .prod-features .feature-txt {
+        padding-left: 40px;
+    }
+
+    .prod-features .feature-txt h6 {
+        font-size: 14px;
+        font-family: 'robotoregular';
+        font-weight: 400;
+    }
+
+    .prod-features .feature-txt span {
+        font-family: 'open_sansregular';
+        font-size: 11px;
+    }
+
+
+    .prod-info-box {
+        border-bottom: 1px solid #DDD;
+        padding: 8px 30px;
+        height: 60px;
+    }
+
+    .model-features .btn-icon {
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        left: 20px;
+    }
+
+    .model-features .btn-icon img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+
+
+    .model-features .feature-txt {
+        padding-left: 40px;
+    }
+
+    .model-features .feature-txt h6 {
+        font-size: 14px;
+        font-family: 'robotoregular';
+        font-weight: 400;
+    }
+
+    .model-features .feature-txt span {
+        font-family: 'open_sansregular';
+        font-size: 11px;
+    }
+
+
+    .navbar-nav {
+        padding-top: 0;
+    }
+}
+
+@media (max-width:576px) {
+
+
+
+
+    .rupee-txt {
+        font-size: 20px;
+        color: #e70323;
+        text-shadow: 1px 1px 2px #000;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+
+    .prod-features .feature-txt {
+        padding-left: 25px;
+    }
+
+    .prod-features .btn {
+        padding: 8px 0 !important;
+    }
+
+    .prod-features .feature-txt {
+        padding-left: 35px;
+    }
+
+
+    .model-features .feature-txt {
+        padding-left: 25px;
+    }
+
+    .model-features .btn {
+        padding: 8px 0 !important;
+    }
+
+    .model-features .feature-txt {
+        padding-left: 35px;
+    }
+
+
+
+    .res-menu .logo {
+        display: block;
+        position: relative;
+        left: 10px;
+        top: 0px;
+        width: 120px;
+        height: auto;
+        background: none;
+    }
+
+    .navbar-nav {
+        padding-top: 0;
+    }
+
+}
+
+@media (max-width:400px) {
+
+
+
+    .rupee-txt {
+        font-size: 18px;
+        color: #e70323;
+        text-shadow: 1px 1px 2px #000;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+
+    .prod-features .feature-txt {
+        padding-left: 25px;
+    }
+
+    .prod-features .btn {
+        padding: 8px 0 !important;
+    }
+
+    .prod-features .feature-txt {
+        padding-left: 24px;
+    }
+
+    .prod-features .btn-icon {
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        left: 0;
+    }
+
+
+    .model-features .feature-txt {
+        padding-left: 25px;
+    }
+
+    .model-features .btn {
+        padding: 8px 0 !important;
+    }
+
+    .model-features .feature-txt {
+        padding-left: 24px;
+    }
+
+    .model-features .btn-icon {
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        left: 0;
+    }
+
+    .om-logo {
+        width: 150px;
+        float: right;
+        text-align: center;
+    }
+
+    .om-logo h1 {
+        font-family: arial;
+        font-weight: 800;
+        color: #ec182b;
+        font-size: 24px;
+        padding: 16px 0px 0px 0px;
+        margin: 0px;
+    }
+
+
+    .navbar-nav {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-device-width: 773px) and (min-device-width: 320px) {
+    .lens-mobile {
+        display: none;
+    }
+}

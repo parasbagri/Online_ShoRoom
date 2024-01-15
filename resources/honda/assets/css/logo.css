@@ -1,0 +1,46 @@
+.om-logo {
+	width: auto;
+}
+
+.logo-text, .logo-text-header{
+	font-family: arial;
+	font-size: 42px;
+	color: #e70323;
+	font-weight: 800;
+}
+
+ a.logo-text-header:hover{
+	color: #d20c0c;
+	text-decoration: none;
+}
+@media (max-width: 680px){
+	.logo-text-header {
+		font-size: 20px;
+	}
+	.logo-text{
+		font-size: 24px;
+	}
+	.res-menu .logo {
+		width: 80%;
+	}
+}
+    
+.navbar-light .navbar-nav .nav-link {
+    padding: 15px 30px !important;
+}
+
+.fixed-tumblr {
+	background-color: #30435A;
+}
+
+.fixed-tumblr span {
+	background-color: #30435A;
+}
+
+.fixed-whatsapp {
+	background-color: #28a745 !important;
+}
+
+.fixed-whatsapp span {
+	background-color: #28a745 !important;
+}

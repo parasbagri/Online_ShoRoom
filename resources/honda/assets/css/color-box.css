@@ -1,0 +1,93 @@
+/*Color Boxes --- Define your colors here .... Only Change the colorname like "red, black etc."*/
+
+.red input[type="radio"]~label {
+    background-color: #e70323;
+}
+
+.black input[type="radio"]~label {
+    background-color: #000;
+}
+
+.gray input[type="radio"]~label {
+    background-color: #505050;
+}
+
+/*Dont edit it ---These are the color  Box Style*/
+.color-box-group {
+    margin: 40px 0;
+}
+
+.color-box {
+    width: auto;
+    height: auto;
+    border: 5px solid transparent;
+    border-radius: 100%;
+    float: left;
+}
+
+.color-box label {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 100%;
+}
+
+.color-box input[type="radio"]:empty {
+    display: none;
+}
+
+.color-box input[type="radio"]~label:before {
+    content: ' ';
+    right: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+.color-box input[type="radio"]:checked~label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+.color-box input[type="radio"] + img:before {
+    content: ' ';
+    right: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+.color-box input[type="radio"]:checked + img {
+	outline: 2px solid #e70323;
+}
+.color-box input[type="radio"]~label {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 50px;
+}
+
+/* .color-box input[type="radio"]~label:focus,
+.color-box input[type="radio"]~label:hover {
+    box-shadow: 0px 0px 3px #DDD;
+} */
+
+/* .color-box input[type="radio"]:checked~label {
+    background-color: #f2f2f2;
+} */
+
+/* .color-box.color-box-danger input[type="radio"]:checked~label {
+    border-color: #bb1245;
+} */
+
+/* .color-box input[type="radio"]:empty~label {
+    display: inline-block;
+    padding: 10px;
+} */
+
+.color-box input[type="radio"]:checked~label {
+    color: #FFF;
+    font-weight: 600;
+    width: 100% !important;
+    text-align: center;
+    font-size: 14px;
+}
