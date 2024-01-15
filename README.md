@@ -36,6 +36,7 @@ Check out the live demo of the video chat application: [Live Demo](https://heart
 - HTML5
 - CSS3
 - JavaScript (ES6+)
+- JQuery
 
 ## Getting Started
 
